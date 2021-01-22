@@ -1,0 +1,49 @@
+body{
+ 	margin:0;
+ 	padding: 0 ;
+ 	font-family:Century Gothic;
+ 	background: url(ab1.jpg)no-repeat;
+ 	height: 100% ;
+ 	background-size: cover;
+ 	background-position: center top;
+ 	background-attachment: fixed;
+ }
+ .container{
+ 	height: 75vh;
+ 	width: 30%;
+ 	background: rgba(0,0,0,.6);
+ 	position: absolute;
+ 	top: 50%;
+ 	left:50%;
+ 	transform: translate(-50% ,-50%);
+ }
+ .img{
+ 	height: 100px;
+ 	width: 100px;
+ 	background: url(" h1.jpg");
+ 	border-radius: 50px;
+ 	position: center;
+ 	top: 0%;
+ 	left: 60%;	
+ 	transform-translate : (-50% ,-50%);
+ 	padding: 0 20px; 
+ }
+ 
+ .container h1{
+ 	 color: white ;
+ 	 margin-top: 50px ;
+ }
+ .container p{
+ 	color: white ;
+ 	margin-top: 50px;
+ 	font-size: medium;
+ }
+ .btn{
+ 	background:  no-repeat;
+ 	outline: none;
+ 	border:1px solid white;
+ 	color: white;
+ 	width: 50% ;
+ 	padding: 7px 15px ;
+ 	font-size: large;
+ }
